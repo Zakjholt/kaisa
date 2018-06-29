@@ -1,5 +1,4 @@
 import styled, { keyframes } from 'styled-components';
-
 import { fadeInUp } from 'react-animations';
 
 const fadeInUpAnimation = keyframes`
@@ -7,47 +6,44 @@ const fadeInUpAnimation = keyframes`
 `;
 
 export const Container = styled.div`
-  animation: 1s ${fadeInUpAnimation};
   display: flex;
   justify-content: center;
-  align-items: center;
   width: 100%;
-  flex-direction: column;
-  max-width: 890px;
-  margin: 25vh auto;
+  height: 100vh;
 `;
 
-export const ComplimentLogoContainer = styled.div`
-  width: calc(178px * 0.85);
+export const Content = styled.div`
+  margin-left: 85px;
+  margin-top: 27px;
+  flex 1;
+  animation: 1s ${fadeInUpAnimation};
+`
 
-  svg {
-    width: 100%;
-    height: auto;
-  }
-`;
+export const Image = styled.img`
+  flex: 0 1;
+  height: 100vh;
+`
 
-export const PrimaryBlurb = styled.p`
-  font-size: calc(44px * 0.6);
+export const LinksContainer = styled.div`
+`
+
+export const Link = styled.a`
+  color: #d7bea5;
+  font-family: 'Basic Grotesque';
+  font-size: 14px;
+  font-style: normal;
+  font-stretch: normal;
   font-weight: bold;
-  max-width: 540px;
-  text-align: center;
-  line-height: 1.59;
-`;
+  text-align: left;
+`
 
-export const EmailLink = styled.a`
-  color: #49ca8b;
-  text-decoration: none;
-  position: relative;
-  display: inline-block;
-`;
-
-export const SecondaryBlurb = styled.p`
-  font-size: calc(18px * 0.7);
-  color: #b1b6b7;
-  text-align: center;
-  line-height: 2.11;
-`;
-
-export const RoseLogoLink = styled.a`
-  display: block;
-`;
+export const Name = styled.h1`
+  color: #ffffff;
+  font-size: 25px;
+  font-family: 'Meek Display';
+  font-style: normal;
+  font-stretch: normal;
+  font-weight: 500;
+  text-align: left;
+  line-height: 64;
+`

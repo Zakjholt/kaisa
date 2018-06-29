@@ -1,3 +1,24 @@
 * {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Meek Display', sans-serif;
+}
+
+body {
+  background-color: #191F23;
+}
+
+@font-face {
+  font-family: 'Meek Display';
+  src: url('./fonts/MeekDisplay-Medium.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Basic Grotesque';
+  src: url('./fonts/basis-grotesque-light-pro.otf') format('opentype'); 
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'Basic Grotesque';
+  src: url('./fonts/basis-grotesque-medium-pro.otf') format('opentype');
+  font-weight: bold;
 }
