@@ -21,7 +21,9 @@ export default () => (
         <Link href="/">Instagram</Link>
       </LinksContainer>
       <BlurbTitle>Hello.</BlurbTitle>
-      <Blurb>A passionate, aspiring chef with a degree in Web Design and New Media. I’ve travelled the world experiencing culture and hospitality through food, and was raised to appreciate it from a young age.</Blurb>
+      <Blurb>
+      Kasia Muszynski is an thoughtful Polish designer who has turned her passion and attention to detail towards food. She is currently completing the Professional Culinary Arts program at the International Culinary Center in New York.
+      </Blurb>
     </Content>
     <Image src={Hero} alt="Kasia" />
   </Container>
