@@ -18,7 +18,7 @@ export default () => (
       <LinksContainer>
         <Link href="/">Resume</Link>
         <Link href="/">Email</Link>
-        <Link href="/">Instagram</Link>
+        <Link target="_blank" href="/https://www.instagram.com/kasiamuszynski">Instagram</Link>
       </LinksContainer>
       <BlurbTitle>Hello.</BlurbTitle>
       <Blurb>
