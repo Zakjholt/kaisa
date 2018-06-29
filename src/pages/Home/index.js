@@ -16,13 +16,13 @@ export default () => (
     <Content>
       <Name>Kasia Muszynski</Name>
       <LinksContainer>
-        <Link href="/">Resume</Link>
-        <Link href="/">Email</Link>
-        <Link target="_blank" href="/https://www.instagram.com/kasiamuszynski">Instagram</Link>
+        <Link target="_blank" href="/resume.pdf">Resume</Link>
+        <Link href="mailto:muszynskic@gmail.com">Email</Link>
+        <Link target="_blank" href="https://www.instagram.com/kasiamuszynski">Instagram</Link>
       </LinksContainer>
       <BlurbTitle>Hello.</BlurbTitle>
       <Blurb>
-      Kasia Muszynski is an thoughtful Polish designer who has turned her passion and attention to detail towards food. She is currently completing the Professional Culinary Arts program at the International Culinary Center in New York.
+      Kasia Muszynski is a thoughtful Polish designer who has turned her passion and attention to detail towards food. She is currently completing the Professional Culinary Arts program at the International Culinary Center in New York.
       </Blurb>
     </Content>
     <Image src={Hero} alt="Kasia" />
