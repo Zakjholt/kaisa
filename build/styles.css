@@ -35,6 +35,11 @@ body {
   display: inline-block;
   letter-spacing: 2.65px;
   text-transform: uppercase;
+  margin-left: 20px;
+}
+
+.link:first-child {
+  margin-left: 0;
 }
 
 .image {
