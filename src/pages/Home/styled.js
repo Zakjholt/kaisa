@@ -19,7 +19,7 @@ export const Container = styled.div`
 
 export const Content = styled.div`
   margin: 13px 5%;
-  flex 1;
+  flex: 1;
   animation: 1s ${fadeInUpAnimation};
 `;
 
