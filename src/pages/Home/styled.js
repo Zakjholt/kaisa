@@ -1,8 +1,8 @@
 import styled, { keyframes } from 'styled-components';
-import { fadeInUp } from 'react-animations';
+import { fadeIn } from 'react-animations';
 
 const fadeInUpAnimation = keyframes`
-  ${fadeInUp};
+  ${fadeIn};
 `;
 
 export const Container = styled.div`
