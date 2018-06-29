@@ -39,7 +39,7 @@ body {
 }
 
 .link:first-child {
-  margin-left: none;
+  margin-left: 0;
 }
 
 .image {
