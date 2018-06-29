@@ -4,7 +4,6 @@ import Home from '../pages/Home';
 
 class App extends Component {
   render() {
-    console.log('wew laddy');
     return (
       <Router>
         <Switch>
