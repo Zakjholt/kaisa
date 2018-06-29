@@ -1,12 +1,20 @@
-import styled from 'styled-components';
+import styled, { keyframes } from 'styled-components';
+
+import { fadeInUp } from 'react-animations';
+
+const fadeInUpAnimation = keyframes`
+  ${fadeInUp};
+`;
 
 export const Container = styled.div`
+  animation: 1s ${fadeInUpAnimation};
   display: flex;
   justify-content: center;
   align-items: center;
   width: 100%;
-  margin-top: 25vh;
   flex-direction: column;
+  max-width: 890px;
+  margin: 25vh auto;
 `;
 
 export const ComplimentLogoContainer = styled.div`

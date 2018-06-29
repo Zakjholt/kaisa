@@ -1,9 +1,10 @@
 import React, { Component } from 'react';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import { HashRouter as Router, Route, Switch } from 'react-router-dom';
 import Home from '../pages/Home';
 
 class App extends Component {
   render() {
+    console.log('wew laddy');
     return (
       <Router>
         <Switch>
